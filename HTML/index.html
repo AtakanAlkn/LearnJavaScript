@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("Internal Script "); //Internal Script
+    </script>
+
+    <div style="flex-direction: row">
+      <i id="demo1">Lorem ipsum dolor sit amet.</i>
+      <i id="demo2">Lorem ipsum dolor sit amet consectetur.</i>
+    </div>
+    <div>
+      <button onclick="myAlertFunction()">Try it</button>
+    </div>
+
+    <script src="./script.js"></script>
+    <!--External Script-->
+  </body>
+</html>
+
+<!--
+The script tag can be placed between the head tags, but this can lead to some issues.
+-It runs JavaScript when the page is first loaded, slowing down the HTML rendering.
+-When you try to access HTML elements using JavaScript, they may not have been created yet, causing problems.
+For these reasons, it is recommended to place it within the body tag.
+-->
