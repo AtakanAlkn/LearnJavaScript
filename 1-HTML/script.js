@@ -16,3 +16,12 @@ console.log("result of sum2 :" + sum2);
 
 let sum3 = "2" + 3 + 5;
 console.log("result of sum3 :" + sum3);
+
+console.log(document.location);
+
+document.getElementById("demo1").style.backgroundColor = "red";
+console.log(document.getElementById("demo4").innerHTML.toLowerCase());
+let newText = document.getElementById("demo4").innerHTML.toLowerCase();
+document.getElementById("demo4").innerHTML = newText;
+
+console.log(document.getElementsByTagName("div"));

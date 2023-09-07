@@ -7,6 +7,7 @@ console.log(typeof Number(stringNumber));
 console.log(typeof +stringNumber);
 console.log(typeof parseInt(stringNumber));
 console.log("stringFloat: ", typeof parseFloat(stringFloat));
+console.log(parseFloat(stringFloat));
 
 //Float to Number
 let floatNumber = 213.12;

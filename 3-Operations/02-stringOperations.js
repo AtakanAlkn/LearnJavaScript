@@ -7,6 +7,7 @@ console.log(userName.toUpperCase());
 console.log(userName.toLowerCase());
 console.log(userName.substring(0, 6));
 console.log(userName.substring(5));
+console.log(userName.slice(7));
 console.log(userName.slice(-2));
 
 const userString = "Lorem ipsum dollar Lorem";
@@ -19,7 +20,7 @@ console.log(space.trim());
 console.log(userString.includes("Lorem")); // true
 console.log(userString.includes("lorem")); //false
 
-console.log(userString.indexOf("r"));
+console.log(userString.indexOf("ipsu"));
 console.log(userString.indexOf("I")); //output: -1
 console.log(userString.lastIndexOf("L"));
 
