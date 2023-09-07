@@ -32,8 +32,3 @@ console.log(a); // output : 6
 // A variable with the same name can be defined more than once.
 // This usage creates many problems
 // Variables declared with the var keyword can NOT have block scope.
-
-let z = 5;
-z = 6;
-var z = 7;
-z = 8;
