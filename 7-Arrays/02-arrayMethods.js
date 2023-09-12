@@ -70,3 +70,10 @@ console.log("ATAKAN".split("").reverse().join(""));
 const array2 = ["asad", "basd", "dasd", "wqqeq", "asd", "tewrw"];
 array2.sort();
 console.log(array2);
+
+//Set Method
+function myFunction(a) {
+  console.log(new Set(a).size === 1);
+}
+
+myFunction([1, 1, 1, "1"]);
